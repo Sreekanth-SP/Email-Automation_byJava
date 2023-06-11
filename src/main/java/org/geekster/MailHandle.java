@@ -15,7 +15,7 @@ public class MailHandle {
         systemProps.put("mail.smtp.host",MailData.CustomHost);
         systemProps.put("mail.smtp.port",MailData.CustomPort);
         systemProps.put(MailData.sslEnable,"true");
-        systemProps.put(MailData.auth,"true ");
+        systemProps.put(MailData.auth,"true");
 
         Authenticator mailAuthenticator = new CustomizedMailAuth(); //Authenticator is the parent class
 
